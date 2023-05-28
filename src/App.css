@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -18,4 +23,24 @@ img {
   height: 300px;
   width: 400px;
   border-radius: 10px;
+}
+
+.products-container {
+  display: flex;
+  margin: 0 100px;
+}
+
+.products-container img {
+  height: 100px;
+  width: 100px;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.data-container {
+  margin: 20px 40px;
 }
